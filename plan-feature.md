@@ -1,5 +1,6 @@
 ---
-description: "Create comprehensive feature plan with deep codebase analysis and research"
+name: 'plan-feature'
+description: 'Create comprehensive feature plan with deep codebase analysis and research. Use when planning a new feature, enhancement, refactor, or bug fix before implementation.'
 ---
 
 # Plan a new task
@@ -107,13 +108,15 @@ So that <benefit/value>
 
 **Compile Research References:**
 
+Use Context7 MCP to fetch the latest documentation for any libraries or frameworks involved. This ensures the plan references up-to-date APIs and patterns rather than outdated examples.
+
 ```markdown
 ## Relevant Documentation
 
-- [Library Official Docs](https://example.com/docs#section)
+- [Library Official Docs via Context7](resolve with context7 MCP)
   - Specific feature implementation guide
   - Why: Needed for X functionality
-- [Framework Guide](https://example.com/guide#integration)
+- [Framework Guide via Context7](resolve with context7 MCP)
   - Integration patterns section
   - Why: Shows how to connect components
 ```
@@ -195,10 +198,12 @@ So that <benefit/value>
 
 ### Relevant Documentation YOU SHOULD READ THESE BEFORE IMPLEMENTING!
 
-- [Documentation Link 1](https://example.com/doc1#section)
+Use Context7 MCP to resolve the latest docs for each library/framework before implementation.
+
+- [Documentation Link 1](resolve with context7 MCP)
   - Specific section: Authentication setup
   - Why: Required for implementing secure endpoints
-- [Documentation Link 2](https://example.com/doc2#integration)
+- [Documentation Link 2](resolve with context7 MCP)
   - Specific section: Database integration
   - Why: Shows proper async database patterns
 
@@ -397,37 +402,3 @@ Execute every command to ensure zero regressions and 100% feature correctness.
 - [ ] Tasks ordered by dependency (can execute top-to-bottom)
 - [ ] Each task is atomic and independently testable
 - [ ] Pattern references include specific file:line numbers
-
-### Pattern Consistency ✓
-
-- [ ] Tasks follow existing codebase conventions
-- [ ] New patterns justified with clear rationale
-- [ ] No reinvention of existing patterns or utils
-- [ ] Testing approach matches project standards
-
-### Information Density ✓
-
-- [ ] No generic references (all specific and actionable)
-- [ ] URLs include section anchors when applicable
-- [ ] Task descriptions use codebase keywords
-- [ ] Validation commands are non interactive executable
-
-## Success Metrics
-
-**One-Pass Implementation**: Execution agent can complete feature without additional research or clarification
-
-**Validation Complete**: Every task has at least one working validation command
-
-**Context Rich**: The Plan passes "No Prior Knowledge Test" - someone unfamiliar with codebase can implement using only Plan content
-
-**Confidence Score**: #/10 that execution will succeed on first attempt
-
-## Report
-
-After creating the Plan, provide:
-
-- Summary of feature and approach
-- Full path to created Plan file
-- Complexity assessment
-- Key implementation risks or considerations
-- Estimated confidence score for one-pass success

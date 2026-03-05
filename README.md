@@ -35,6 +35,10 @@ Because the context and plan are already established, execution becomes far more
 
 These are executable slash commands and will soon be available in the Mono repo.
 
+## Recent Changes
+
+- **plan-feature**: Added `name` field to frontmatter and improved description for better discoverability. Integrated **Context7 MCP** for fetching up-to-date library/framework documentation during planning. Streamlined the plan template by removing redundant checklist sections (Pattern Consistency, Information Density, Success Metrics, Report) to keep focus on actionable output.
+
 ---
 
 If we follow this sequence — **Research → Plan → Execute** — we'll get outputs that are more structured, aligned with our architecture, and far less prone to random or inconsistent results.
