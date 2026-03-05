@@ -6,9 +6,9 @@ Here's the recommended flow:
 
 ```mermaid
 graph LR
-    A["🔍 Research\n/prime"] --> B["📋 Plan\n/plan-feature"]
-    B --> C["⚡ Execute\n/execute"]
-    C -->|"New feature or change"| A
+    A[Research /prime] --> B[Plan /plan-feature]
+    B --> C[Execute /execute]
+    C -->|New feature or change| A
 ```
 
 ## 1️⃣ Start with research (/prime)
