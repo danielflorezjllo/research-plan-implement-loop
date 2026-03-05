@@ -4,6 +4,13 @@ To get more predictable and reliable results from AI, we need to be intentional 
 
 Here's the recommended flow:
 
+```mermaid
+graph LR
+    A["🔍 Research\n/prime"] --> B["📋 Plan\n/plan-feature"]
+    B --> C["⚡ Execute\n/execute"]
+    C -->|"New feature or change"| A
+```
+
 ## 1️⃣ Start with research (/prime)
 
 Always begin by researching the codebase.
