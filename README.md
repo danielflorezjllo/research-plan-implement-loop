@@ -6,15 +6,15 @@ Here's the recommended flow:
 
 ```mermaid
 graph LR
-    A[Research /prime] --> B[Plan /plan-feature]
+    A[Research /research] --> B[Plan /plan-feature]
     B --> C[Execute /execute]
     C -->|New feature or change| A
 ```
 
-## 1️⃣ Start with research (/prime)
+## 1️⃣ Start with research (/research)
 
 Always begin by researching the codebase.
-Use the prime command to load relevant context into the agent — this can be:
+Use the research command to load relevant context into the agent — this can be:
 
 - A full end-to-end feature
 - A specific domain area

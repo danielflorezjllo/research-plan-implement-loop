@@ -1,8 +1,9 @@
 ---
-description: Prime agent with codebase understanding
+name: 'research'
+description: 'Research and prime agent with comprehensive codebase understanding. Use to load project context before planning or implementing changes.'
 ---
 
-# Prime: Load Project Context
+# Research: Load Project Context
 
 ## Objective
 
